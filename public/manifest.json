@@ -1,6 +1,6 @@
 {
   "name": "Soul++",
-  "description": "提升魂+论坛的使用体验",
+  "description": "提升魂+论坛的使用体验 for Firefox",
   "version": "1.0.7",
   "manifest_version": 3,
   "content_scripts": [
@@ -48,14 +48,21 @@
     "default_popup": "popup.html"
   },
   "background": {
-    "service_worker": "js/background.js"
+    "scripts": ["js/background.js"]
   },
   "permissions": [
     "storage",
-    "contextMenus"
+    "contextMenus",
+    "tabs"
   ],
   "host_permissions": [
     "https://pan.baidu.com/*",
     "https://freeimage.host/"
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "265dda91-b70d-4116-a6a6-568229098bc7",
+      "strict_min_version": "42a1"
+    }
+  }
 }

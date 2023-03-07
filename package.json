@@ -1,18 +1,18 @@
 {
-  "name": "soul-plus-plus-chrome-extension",
+  "name": "soul-plus-plus-firefox-addon",
   "version": "1.0.5",
-  "description": "提升魂+使用体验",
+  "description": "提升魂+使用体验 for Firefox",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
     "build": "rimraf dist && webpack --config webpack/webpack.prod.js",
     "clean": "rimraf dist"
   },
-  "author": "FetchTheMoon",
+  "author": "tstejl",
   "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FetchTheMoon/soul-plus-plus-chrome-extension"
+    "url": "https://github.com/tstejl/soul-plus-plus-firefox-addon"
   },
   "browserslist": [
     "supports es5",
