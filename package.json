@@ -1,6 +1,6 @@
 {
   "name": "soul-plus-plus-firefox-addon",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "提升魂+使用体验 for Firefox",
   "main": "index.js",
   "scripts": {
