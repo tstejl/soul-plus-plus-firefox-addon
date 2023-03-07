@@ -22,4 +22,4 @@ npm i
 npm run-script build
 ```
 
-5. Find the `dist` folder inside the projet path
+5. Find the `dist` folder inside the project path and load from `about:debugging#/runtime/this-firefox`
